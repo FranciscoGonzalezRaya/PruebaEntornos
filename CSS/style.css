@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(188, 189, 228);
+}
+
+section {
+    display: inline-block;
+    width: 49%;
+}
+
+section article{
+    margin: 30px;
+    margin-right: 10px;
+}
+
+section article img {
+    border-radius: 7px;
+    width: 100%;
+}
+
+section article button {
+    background-color: rgb(99, 190, 8);
+    color: aliceblue;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+section article h4 {
+    color: green;
+}
+
+/*ASIDE*/
+
+aside{
+    width: 49%;
+    height: 1000px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+aside div {
+    background-color: rgb(231, 228, 228);
+    vertical-align: top;
+    margin-top: 20px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+aside div p img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    vertical-align: top;
+    height: 100%;
+
+}
+
+aside div p{
+    display: inline-block;
+    width: 33%;
+    height: 170px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+aside div div{
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+aside div div h5 {
+    color: rgb(74, 204, 204);
+    margin-top: 0px;
+}
+
+aside div div h3 {
+    margin-top: -10px;
+}
